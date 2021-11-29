@@ -1,0 +1,73 @@
+﻿@model Proyecto_LaboratorioJARAF.Models.USUARIO
+
+@{
+    ViewBag.Title = "Create";
+}
+
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    
+    <link rel="stylesheet" href="~/Content/Site.css">
+</head>
+
+<body id="fondologin">
+    <style>
+
+
+        #datos {
+            bottom: 200px;
+        }
+
+        .container {
+            bottom: 50px;
+        }
+
+        #usuario {
+            bottom: 350px;
+            position: absolute;
+            right: 70px;
+        }
+    </style>
+    <img src="~/Content/Estilo CSS HTML/23.png" id="logo">
+        <img src="~/Content/Estilo CSS HTML/login.jpg" id="cabezoncito" width="150" height="150">
+
+    @using (Html.BeginForm("Create", "Login", FormMethod.Post))
+    {
+        <div class="container">
+            <div class="box">
+                <div class="container_form" id="usuario">
+
+
+                    <h2 style="color:white">Inicio de sesion</h2>
+                    <form action="">
+                        <div id="datos">
+                            <p style="color:white">Usuario </p>
+                            @Html.TextBoxFor(a => a.Usuario1)
+                        </div>
+                        <p style="color:white">Contraseña</p>
+                        @Html.TextBoxFor(a => a.Contraseña)
+                        <input class="check" type="checkbox" id="checkid">
+                        <label for="checkid" style="color:white" id="recuerdame">Recuerdame</label>
+                        <button class="boton">@Html.ActionLink("Entrar", "Inicio")</button>
+
+
+
+                    </form>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    }
+
+
+</body>
+</html>

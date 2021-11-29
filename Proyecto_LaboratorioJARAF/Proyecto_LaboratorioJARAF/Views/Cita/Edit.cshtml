@@ -1,0 +1,31 @@
+﻿
+@model Proyecto_LaboratorioJARAF.Models.CITAS
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2 id="textot">actualizar cita</h2>
+<body style=" margin:2cm" id="fondop">
+   
+    <img src="~/Content/Estilo CSS HTML/perfildeusuario.jpg" id="cabezoncito3">
+
+    @using (Html.BeginForm("Edit", "Cita", FormMethod.Post))
+    {
+        <p id="textot">id cita</p>
+        @Html.TextAreaFor(a => a.IdCita)
+        <p id="textot">id examen</p>
+        @Html.TextAreaFor(a => a.IdExamenes)
+        <br />
+        <p id="textot">Fecha</p>
+        @Html.TextAreaFor(a => a.Fecha)
+        <br />
+        <p id="textot">Hora</p>
+        @Html.TextAreaFor(a => a.Hora)
+        <input type="submit" />
+        <button>@Html.ActionLink("ir a cita", "CrearCita")</button>
+    }
+
+
+
+</body>

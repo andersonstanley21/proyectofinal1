@@ -1,0 +1,261 @@
+﻿#fondologin {
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75 )),
+    url('./Estilo CSS HTML/young-handsome-physician-in-medical-robe-with-stethoscope.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+}
+#fondoinicio {
+    background-image: linear-gradient(rgba(5,7,12,0.4),rgba(5,7,12,0.4 )),
+        url('Estilo CSS HTML/woman-working-in-laborator.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+    background-size: cover;
+}
+#logo {
+    border-radius: 50%; 
+    width:150px;
+    height:150px;
+    margin-top:50px;
+    right:300px;
+    position:relative
+    
+}
+
+#logo2 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top:75px;
+    right:1900px;
+    position:absolute;
+    opacity:0.8;
+    
+}
+
+.box {
+    background-color: mediumpurple;
+    width: 600px;
+    height: 600px;
+    left: 500px;
+    position: absolute;
+    background: linear-gradient(rgba(5,7,12,0.2),rgba(5,7,12,0.2 ));
+    border-radius:20%;
+}
+
+
+
+#p2 
+{
+    left: 300px;
+    position: absolute;
+    bottom: 50px
+}
+
+#checkid
+{
+    bottom:50px
+
+
+}
+
+
+#recuerdame
+{
+    bottom:50px;
+
+}
+
+
+.btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 25%;
+    
+    background-color:#6ad7db;
+    font-family:'Lucida Bright';
+}
+
+
+#titulo {
+    font-family:Algerian;
+    color:white;
+}
+
+#cabezoncito
+{
+    border-radius:60%;
+    left:300px;
+    position:relative;
+    bottom:10px;
+      
+    }
+#targeta {
+   height:100px
+    
+    
+}
+#cabezoncito2 {
+    border-radius: 60%;
+    right:40px;
+    position: relative;
+    bottom: 10px;
+    width:100px;
+    height:100px;
+}
+#textot{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:white;
+  
+}
+
+#fondop {
+    background-image: linear-gradient(rgba(5,7,12,0.5),rgba(5,7,12,0.5 )), url('Estilo CSS HTML/doctors-infectionist-research-and-covid-concept-satisfied-young-asian-female-doctor-receive-good-res.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+}
+#targeta {
+    width: 200px;
+    height: 100px;
+    background-color:white;
+}
+.ui {
+    background-color: white;
+    width: 200px;
+    height: 180px;
+    border-radius:25%;
+}
+
+
+#fondopa {
+    background-image: linear-gradient(rgba(5,7,12,0.4),rgba(5,7,12,0.4 )), url('Estilo CSS HTML/young-handsome-physician-in-medical-robe-with-stethoscope.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+}
+
+
+
+   
+
+
+
+#fondocc {
+    background-image: linear-gradient(rgba(5,7,12,0.4),rgba(5,7,12,0.4 )),  url('Estilo CSS HTML/composition-of-coronavirus-vaccine-in-lab.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+}
+
+
+
+#logo1 {
+    border-radius: 60%;
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
+    right: 600px;
+    
+}
+
+
+
+#logoedit
+{
+    border-radius: 60%;
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
+    right: 180px;
+}
+
+
+#cabezoncito3 {
+    border-radius: 60%;
+    position: relative;
+    bottom: 9px;
+    width: 100px;
+    right: 60px;
+    
+}
+
+
+#logo3 {
+    border-radius: 60%;
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+    height: 100px;
+    right: 200px;
+}
+
+
+
+
+#textotblack {
+    font-family: Bahnschrift;
+    color:black;
+
+
+}
+
+
+#box2 {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    margin-left:300px;
+    position: absolute;
+    border-radius: 5%;
+    bottom: -600px;
+}
+
+
+#box3 {
+    background-color:white;
+    width: 300px;
+    height: 350px;
+    left:1000px;
+    margin-left:300px;
+    position: absolute;
+    border-radius: 5%;
+    bottom: -600px;
+}
+
+#box1 {
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    left: 200px;
+    position: absolute;
+    border-radius: 5%;
+    bottom: -600px;
+}
+
+
+#logoinicio {
+    border-radius: 60%;
+    position: relative;
+    bottom: 10px;
+    width: 200px;
+    height: 200px;
+    left:1000px;
+}
